@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "room"("id" integer NOT NULL, "topic_id" integer NOT NULL, "name"
+      text NOT NULL, "description" text NOT NULL, PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: room
+  type: add_existing_table_or_view

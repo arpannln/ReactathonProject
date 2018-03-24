@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "participant" ADD FOREIGN KEY ("room_id") REFERENCES "room" ("id")
+  type: run_sql

@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "room" ALTER COLUMN "topic_id" TYPE integer;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "room" ALTER COLUMN "topic_id" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "room" ALTER COLUMN "topic_id" SET NOT NULL;
+  type: run_sql
