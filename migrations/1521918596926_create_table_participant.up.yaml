@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "participant"("id" integer NOT NULL, "room_id" integer NOT NULL,
+      PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: participant
+  type: add_existing_table_or_view
