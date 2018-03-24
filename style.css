@@ -1,0 +1,24 @@
+.panel_1 {
+  background-image: url("./sadman.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.panel_1_header {
+  font-size: 40px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel_1_quote {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
