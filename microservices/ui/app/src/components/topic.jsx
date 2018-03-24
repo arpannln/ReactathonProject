@@ -7,7 +7,7 @@ class TopicsList extends Component {
   constructor() {
     super()
     this.state = {
-      topics: []
+      rooms: []
     }
   }
 
@@ -35,22 +35,25 @@ class TopicsList extends Component {
 
   render() {
     return(
-      <ul className = "topics-list">
-      {
-        this.state.topics.map(topic => {
-          return (
-            <Link
-              to={`/topic/${topic.id}`}
-              key={`${topic.id}`}>
-              <div
-              className="topic-list-item">
-                <h3>{topic.name}</h3>
-              </div>
-            </Link>
-          )
-        })
-      }
-      </ul>
+      <div>
+        <h2>
+        <ul className = "topics-list">
+        {
+          this.state.topics.map(topic => {
+            return (
+              <Link
+                to={`/topic/${topic.id}`}
+                key={`${topic.id}`}>
+                <div
+                className="topic-list-item">
+                  <h3>{topic.name}</h3>
+                </div>
+              </Link>
+            )
+          })
+        }
+        </ul>
+      </div>
     )
   }
 
