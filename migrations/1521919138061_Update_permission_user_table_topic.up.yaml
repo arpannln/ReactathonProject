@@ -1,0 +1,14 @@
+- args:
+    role: user
+    table: topic
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - description
+      - id
+      - name
+      filter: {}
+    role: user
+    table: topic
+  type: create_select_permission
