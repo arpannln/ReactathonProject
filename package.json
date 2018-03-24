@@ -1,0 +1,19 @@
+{
+  "name": "im_not_the_only_one",
+  "version": "1.0.0",
+  "description": "This is a simple guide to deploying a basic create-react-app and a simple Node server(Express) on Hasura with zero configuration. Moreover, the guide also explores the various Hasura backend components which you can leverage to develop your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpannln/ReactathonProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpannln/ReactathonProject/issues"
+  },
+  "homepage": "https://github.com/arpannln/ReactathonProject#readme"
+}

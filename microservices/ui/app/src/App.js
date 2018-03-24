@@ -1,8 +1,41 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios'
+
+var url = "https://data.acridly34.hasura-app.io/v1/query";
 
 class App extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      topics: []
+    }
+  }
+
+  getTopics() {
+    axios.post(url,
+    {
+      "type": "select",
+      "args": {
+          "table": "topic",
+          "columns": [
+              "*"
+          ]
+      }
+    })
+      .then(res => {
+        this.setState({
+          topics: res.data
+        })
+      })
+  }
+
+  componentDidMount() {
+    this.getTopics();
+  }
+
   render() {
     const clusterName = process.env.REACT_APP_CLUSTER_NAME || 'NoClusterName';
     return (
