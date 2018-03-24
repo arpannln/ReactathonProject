@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - id
+      - topic_id
+      - name
+      - description
+      - moderator_id
+      filter: {}
+    role: user
+    table: room
+  type: create_select_permission

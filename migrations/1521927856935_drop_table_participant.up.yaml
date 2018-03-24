@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "participant"
+  type: run_sql
