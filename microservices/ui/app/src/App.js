@@ -1,24 +1,31 @@
-import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router';
-import axios from 'axios';
-import logo from './logo.svg';
+import React from 'react';
+import {
+  Route,
+  Redirect,
+  Switch,
+  Link,
+  HashRouter
+} from 'react-router-dom';
 import './App.css';
-import TopicsList from './components/topicsList.jsx';
+import Nav from './nav/nav'
 
-var url = "https://auth.acridly34.hasura-app.io/v1/user/info"
 
-class App extends Component {
-
-  componentDidMount() {
-
-  }
-
-  render() {
-    return (
+const App = () => (
+    <HashRouter>
       <div>
+        <header>
+          <Nav/>
+        </header>
+        <Switch>
+          <Route path="/"  />
+          <Route path="/topics"  />
+          <Route path="/topics/:id" />
+          <Route path="/rooms/:id" />
+          <Redirect to="/" />
+        </Switch>
       </div>
-    )
-  }
-}
+    </HashRouter>
+
+);
 
 export default App;
