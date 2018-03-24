@@ -1,0 +1,8 @@
+- args:
+    name: users
+    table: room
+    using:
+      foreign_key_constraint_on:
+        column: room_id
+        table: room_user
+  type: create_array_relationship

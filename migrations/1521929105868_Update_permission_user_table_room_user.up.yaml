@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - room_id
+      - user_id
+      - created
+      filter:
+        user_id:
+          $eq: X-HASURA-USER-ID
+    role: user
+    table: room_user
+  type: create_select_permission
