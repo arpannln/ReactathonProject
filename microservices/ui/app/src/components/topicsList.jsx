@@ -33,8 +33,8 @@ class TopicsList extends Component {
       .then(res => {
         this.setState({
           topics: res.data
-        })
-      })
+        });
+      });
   }
 
   componentDidMount() {
@@ -48,7 +48,12 @@ class TopicsList extends Component {
       topics = topics.filter( topic => topic.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1);
     }
     return(
+
       <div className="discover">
+        <div className="topics-header-div">
+          <img className="topics-header" src="https://res.cloudinary.com/slicecloud/image/upload/v1522004911/header_sun_bkp0bd.jpg"/>
+          <h1>Remember: You're Not Alone</h1>
+        </div>
         <form className="search">
             <input
               type="text"
@@ -61,6 +66,7 @@ class TopicsList extends Component {
         <ul className = "topics-list">
         {
           topics.map(topic => {
+
             return (
               <span className="span-topic">
                 <Link
@@ -71,11 +77,13 @@ class TopicsList extends Component {
                   <h3 id="topic-name" className="topic-name">{topic.name}</h3>
                 </Link>
               </span>
+
             )
           })
         }
       </ul>
     </div>
+
     )
   }
 

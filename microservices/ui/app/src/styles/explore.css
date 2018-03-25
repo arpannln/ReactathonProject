@@ -3,6 +3,41 @@
   height: 100%;
 }
 
+.topics-header-div {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.topics-header-div h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topics-header {
+  width: 100%;
+  object-fit: cover;
+}
+
+.search {
+  position: absolute;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: -70px;
+
+
+}
+
+.search > input {
+  height: 35px;
+  width: 300px;
+  outline: none;
+  border-radius: 10px;
+}
+
+
 .span-topic {
   position: relative;
   width: 300px;

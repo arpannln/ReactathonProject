@@ -1,6 +1,5 @@
 HearToHelp
 NotAlone
-TokTogether
 LetsTalkTogether
 TalkTogether
 Together
@@ -37,7 +36,7 @@ Member confidentiality is conserved by pairing users with each other potentially
 
 Universality has to deal with members realizing that they are not alone, and that their suffering is universal.
 
-By making therapeutic services available over the web, [APPNAME] makes participation easier than ever.
+By making therapeutic services available over the web, [NotAlone] makes participation easier than ever.
 
 1. Anonymity / Confidentiality
 Confidentiality is crucial to successful group therapy. If group members don't feel safe sharing with the group it can completely negate the benefits of therapy.  By connecting
@@ -45,8 +44,3 @@ Confidentiality is crucial to successful group therapy. If group members don't f
 
 3. Separation of concerns
 Group therapy is a social activity, but forming close friendships with group members can
-
-
-
-# AGORAPHOBIA!
-may come across as insensitive if we're building an app that's meant for mental wellness.

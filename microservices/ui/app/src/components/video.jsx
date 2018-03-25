@@ -188,7 +188,8 @@ export default class Video extends React.Component {
               />
             </OTStreams>
           </OTSession>
-          <button onClick={() => this.props.history.goBack()}> Go Back to Home  </button>
+          <button onClick={() => this.props.history.goBack()}>Go Back to Home</button>
+
         </div>
       );
     } else {
