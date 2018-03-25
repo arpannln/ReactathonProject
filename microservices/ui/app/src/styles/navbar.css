@@ -15,7 +15,7 @@
   position: absolute;
   left: 50px;
   top: 14px;
-  border-radius: 10px;
+  border-radius: 5px;
   background: darkcyan;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -39,7 +39,7 @@
   left: 180px;
   top: 14px;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   background: darkcyan;
   text-shadow: 2px 2px 2px black;
   border: 1px solid #B5E2FA;
