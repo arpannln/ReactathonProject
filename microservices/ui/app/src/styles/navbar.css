@@ -19,7 +19,7 @@
   background: lightblue;
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
-
+  outline: none;
 }
 
 .home-button:hover {
@@ -40,6 +40,7 @@
   background: lightblue;
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
+  outline: none;
 }
 
 .explore-button:hover {

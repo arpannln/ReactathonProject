@@ -3,7 +3,6 @@
   height: 100%;
 }
 
-
 .span-topic {
   position: relative;
   width: 300px;
@@ -26,6 +25,7 @@
   flex-wrap: wrap;
   margin-left: 125px;
 }
+
 
 body {
   background-color: cornflowerblue;
