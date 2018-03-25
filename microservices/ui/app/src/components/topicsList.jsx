@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/explore.css';
 import axios from 'axios';
 var url = "https://data.acridly34.hasura-app.io/v1/query";
 
@@ -39,15 +40,15 @@ class TopicsList extends Component {
       {
         this.state.topics.map(topic => {
           return (
-            <Link
-              to={`/topics/${topic.id}`}
-              key={`${topic.id}`}
-              className="link">
-              <div
-              className="topic-list-item">
-                <h3>{topic.name}</h3>
-              </div>
-            </Link>
+            <span className="span-topic">
+              <Link
+                to={`/topics/${topic.id}`}
+                key={`${topic.id}`}
+                className="link" >
+                <img className="topic-image" src="https://www.epainassist.com/images/Article-Images/agoraphobia.jpg"></img>
+                <h3 id="topic-name" className="topic-name">{topic.name}</h3>
+              </Link>
+            </span>
           )
         })
       }
