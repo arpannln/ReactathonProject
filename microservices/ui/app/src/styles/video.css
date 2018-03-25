@@ -23,13 +23,14 @@
 .outer-div > button , #videoButton{
   height: 35px;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: darkcyan;
   padding: 0px 10px 0px 10px;
   margin: 5px 0px;
   margin-left: 48%;
   text-align: center;
-
+  outline: none;
+  border: none;
 }
 
 .outer-div > button {
@@ -37,7 +38,20 @@
 }
 
 .outer-div > button:hover , #videoButton:hover {
-  background-color: cornflowerblue;
+  background-color: #008080;
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
 
+.room-name {
+  position: absolute;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 2px gray;
+  color: white;
+  margin-left: 42%;
+  margin-top: -60px;
 }

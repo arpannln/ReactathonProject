@@ -20,6 +20,7 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 2px gray;
 }
 
 .topics-header-div h1 {
@@ -36,7 +37,7 @@ body {
 
 .search {
   position: absolute;
-  margin-left: 40%;
+  margin-left: 38.5%;
   margin-right: 40%;
   margin-top: -70px;
 

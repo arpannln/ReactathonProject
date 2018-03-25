@@ -15,16 +15,19 @@
   position: absolute;
   left: 50px;
   top: 14px;
-  border-radius: 10px;
+  border-radius: 5px;
   background: darkcyan;
+  color: white;
+  text-shadow: 2px 2px 2px black;
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
   outline: none;
+  border: none;
 }
 
 .home-button:hover {
   cursor: pointer;
-  background: cornflowerblue;
+  background: #008080;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
@@ -36,16 +39,19 @@
   position: absolute;
   left: 180px;
   top: 14px;
-  border-radius: 10px;
+  color: white;
+  border-radius: 5px;
   background: darkcyan;
+  text-shadow: 2px 2px 2px black;
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
   outline: none;
+  border: none;
 }
 
 .explore-button:hover {
   cursor: pointer;
-  background:cornflowerblue;
+  background:#008080;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);

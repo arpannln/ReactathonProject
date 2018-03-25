@@ -53,7 +53,7 @@ class Rooms extends Component {
             return (
               <span className="span-button">
                 <Link
-                  to={`/rooms/${room.session_id}`}
+                  to={`/rooms/${room.session_id}/${room.name}`}
                   key={`${room.id}`}
                   className="link">
                   <div

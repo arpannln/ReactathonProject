@@ -16,12 +16,22 @@
 }
 
 .panel_1 a {
+<<<<<<< HEAD
   background-color: rgba(0,0,0,0);
   color: #f2f2f2;
   border-radius: 5px;
   text-decoration: none;
   padding: 15px;
   border: 2px solid white;
+=======
+  /* background-color: rgba(255, 255, 255, 0.35); */
+  background-color: darkcyan;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid darkcyan;
+>>>>>>> 36daf513bb52a98837da97e36c6fec08689d3a72
   font-weight: 600;
   text-shadow: black 1px 0 1px;
 
@@ -30,6 +40,16 @@
   background-color: #f2f2f2;
   color: #f7a072;
   text-shadow: none;
+<<<<<<< HEAD
+=======
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transition: transform 0.2s ease;
+  text-shadow: lightgrey 3px 3px 3px;
+  border: 2px solid #f2f2f2;
+>>>>>>> 36daf513bb52a98837da97e36c6fec08689d3a72
 }
 
 .panel_2 {
