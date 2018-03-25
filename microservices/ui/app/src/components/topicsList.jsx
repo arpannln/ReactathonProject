@@ -5,11 +5,18 @@ import axios from 'axios';
 var url = "https://data.acridly34.hasura-app.io/v1/query";
 
 class TopicsList extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props);
+    this.handleChange = this.handleChange.bind(this);
     this.state = {
-      topics: []
-    }
+      topics: [],
+      search: ""
+    };
+    this.getTopics();
+  }
+
+  handleChange(e) {
+    this.setState( {search: this.refs.filterTextInput.value });
   }
 
   getTopics() {
@@ -35,25 +42,40 @@ class TopicsList extends Component {
   }
 
   render() {
-    console.log(this.state.topics);
+    var topics = this.state.topics;
+    if (topics.length > 0) {
+      console.log(topics[0]);
+      topics = topics.filter( topic => topic.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1);
+    }
     return(
-      <ul className = "topics-list">
-      {
-        this.state.topics.map(topic => {
-          return (
-            <span className="span-topic">
-              <Link
-                to={`/topics/${topic.id}`}
-                key={`${topic.id}`}
-                className="link" >
-                <img className="topic-image" src={topic.image_url}></img>
-                <h3 id="topic-name" className="topic-name">{topic.name}</h3>
-              </Link>
-            </span>
-          )
-        })
-      }
+      <div className="discover">
+        <form className="search">
+            <input
+              type="text"
+              placeholder="Search..."
+              value={this.props.filterText}
+              ref="filterTextInput"
+              onChange={this.handleChange}
+            />
+          </form>
+        <ul className = "topics-list">
+        {
+          topics.map(topic => {
+            return (
+              <span className="span-topic">
+                <Link
+                  to={`/topics/${topic.id}`}
+                  key={`${topic.id}`}
+                  className="link" >
+                  <img className="topic-image" src={topic.image_url}></img>
+                  <h3 id="topic-name" className="topic-name">{topic.name}</h3>
+                </Link>
+              </span>
+            )
+          })
+        }
       </ul>
+    </div>
     )
   }
 

@@ -35,7 +35,6 @@ body {
   position:absolute;
   z-index: 2;
   display: flex;
-  opacity: 0;
   width: 300px;
   height: 250px;
   justify-content: center;
@@ -55,7 +54,8 @@ body {
 }
 
 .topic-name:hover {
-  opacity: 1;
+  color: #FF7F50;
+  font-size: 25px;
   box-shadow: 0 0 6px 8px white;
   /* -webkit-transform: scale(1.21);
   -moz-transform: scale(1.21);
