@@ -7,7 +7,9 @@
 }
 
 .outer-div-nav-bar button {
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  background-color: darkcyan;
+  color: white;
 }
 
 .home-button {
