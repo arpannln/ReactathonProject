@@ -5,3 +5,10 @@
   data: null
   kubeContext: acridly34
   name: acridly34
+- alias: new
+  config:
+    configmap: controller-conf
+    namespace: hasura
+  data: null
+  kubeContext: clapping81
+  name: clapping81

@@ -1,7 +1,9 @@
 .outer-div-nav-bar {
   width: 100%;
-  height: 80px;
-  background: cornflowerblue;
+  height: 65px;
+  background-color: #F7A072;
+  border-bottom: 1px solid white;
+  transition: all 2.0s ease;
 }
 
 .outer-div-nav-bar button {
@@ -12,29 +14,40 @@
   padding: 10px 30px;
   position: absolute;
   left: 50px;
-  top: 20px;
+  top: 14px;
   border-radius: 10px;
   background: lightblue;
-  border: 1px solid black;
-
+  border: 1px solid #B5E2FA;
+  transition: transform 0.2s ease;
+  outline: none;
 }
 
 .home-button:hover {
   cursor: pointer;
-  background:lightgray;
+  background: cornflowerblue;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
 }
 
 .explore-button {
   padding: 10px 30px;
   position: absolute;
   left: 180px;
-  top: 20px;
+  top: 14px;
   border-radius: 10px;
   background: lightblue;
-  border: 1px solid black;
+  border: 1px solid #B5E2FA;
+  transition: transform 0.2s ease;
+  outline: none;
 }
 
 .explore-button:hover {
   cursor: pointer;
-  background:lightgray;
+  background:cornflowerblue;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
 }
