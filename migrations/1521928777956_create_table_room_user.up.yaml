@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "room_user"("room_id" integer NOT NULL, "user_id" integer NOT
+      NULL, "created" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("room_id","user_id")
+      )
+  type: run_sql
+- args:
+    name: room_user
+  type: add_existing_table_or_view

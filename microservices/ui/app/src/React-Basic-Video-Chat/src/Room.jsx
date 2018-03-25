@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Rooms from './Rooms.jsx';
 import { OTSession, OTPublisher, OTStreams, OTSubscriber } from 'opentok-react';
 
-export default class App extends React.Component {
+export default class Room extends React.Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -73,7 +73,7 @@ export default class App extends React.Component {
   toggleVideo = () => {
     this.setState({ publishVideo: !this.state.publishVideo });
   };
-  
+
   handleSubmit () {
     ReactDOM.render(
       <Rooms/>,
