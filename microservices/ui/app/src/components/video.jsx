@@ -150,6 +150,7 @@ export default class Video extends React.Component {
     //   this.sessionId = this.state.room[0].session_id;
     //   this.token = opentok.generateToken(sessionId);
     // }
+    console.log(this.sessionId);
     const {token, sessionId} = this;
     if (this.token) {
 
