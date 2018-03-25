@@ -16,27 +16,20 @@
 }
 
 .panel_1 a {
-  /* background-color: rgba(255, 255, 255, 0.35); */
-  background-color: darkcyan;
+  background-color: rgba(0,0,0,0);
   color: #f2f2f2;
   border-radius: 5px;
   text-decoration: none;
   padding: 15px;
-  border: 2px solid #f7a072;
+  border: 2px solid white;
   font-weight: 600;
-  text-shadow: black 3px 3px 3px;
+  text-shadow: black 1px 0 1px;
+
 }
 .panel_1 a:hover {
   background-color: #f2f2f2;
   color: #f7a072;
   text-shadow: none;
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transition: transform 0.2s ease;
-  text-shadow: lightgrey 3px 3px 3px;
-  border: 2px solid white;
 }
 
 .panel_2 {

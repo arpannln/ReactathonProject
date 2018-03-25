@@ -36,3 +36,11 @@
   padding-right: 10px;
   text-decoration: none;
 }
+
+.footer-links a:visited {
+  color: black;
+}
+
+.footer-links a:hover{
+  color: #f1f1f1;
+}
