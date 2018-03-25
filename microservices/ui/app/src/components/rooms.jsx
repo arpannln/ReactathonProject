@@ -31,8 +31,8 @@ class Rooms extends Component {
       .then(res => {
         this.setState({
           rooms: res.data
-        })
-      })
+        });
+      });
   }
 
   componentDidMount() {
@@ -41,26 +41,33 @@ class Rooms extends Component {
 
   render() {
     return(
-      <ul className = "topics-list">
-      {
-        this.state.rooms.map(room => {
-          console.log(room.sessionId);
-          return (
-            <span className="span-button">
-              <Link
-                to={`/rooms/${room.session_id}`}
-                key={`${room.id}`}
-                className="link">
-                <div
-                className="topic-list-item">
-                  <h3>{room.name}</h3>
-                </div>
-              </Link>
-            </span>
-          )
-        })
-      }
-      </ul>
+      <div>
+        <div className="topics-header-div">
+          <img className="topics-header" src="https://res.cloudinary.com/slicecloud/image/upload/v1522004911/header_sun_bkp0bd.jpg"/>
+          <h1>Remember: You're Not Alone</h1>
+        </div>
+        <ul className = "topics-list">
+        {
+          this.state.rooms.map(room => {
+            console.log(room.sessionId);
+            return (
+              <span className="span-button">
+                <Link
+                  to={`/rooms/${room.session_id}`}
+                  key={`${room.id}`}
+                  className="link">
+                  <div
+                  className="topic-list-item">
+                    <h3>{room.name}</h3>
+                  </div>
+                </Link>
+              </span>
+            );
+          })
+        }
+        </ul>
+      </div>
+
     )
 
   }
