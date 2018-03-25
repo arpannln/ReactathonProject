@@ -16,6 +16,9 @@
   margin-left: 10px;
 }
 
+.outer-div {
+  padding-bottom: 500px;
+}
 
 .outer-div > button , #videoButton{
   height: 35px;
