@@ -2,6 +2,7 @@
   width: 100%;
   height: 80px;
   background: cornflowerblue;
+
 }
 
 .home-button {
@@ -12,6 +13,7 @@
   border-radius: 10px;
   background: lightblue;
   border: 1px solid black;
+
 }
 
 .home-button:hover {
