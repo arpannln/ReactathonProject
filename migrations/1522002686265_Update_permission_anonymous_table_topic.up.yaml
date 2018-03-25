@@ -1,0 +1,15 @@
+- args:
+    role: anonymous
+    table: topic
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - description
+      - id
+      - image_url
+      - name
+      filter: {}
+    role: anonymous
+    table: topic
+  type: create_select_permission
