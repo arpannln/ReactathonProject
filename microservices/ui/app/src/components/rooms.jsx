@@ -9,6 +9,7 @@ class Rooms extends Component {
     this.state = {
       rooms: []
     }
+
   }
 
   getRooms() {
@@ -45,7 +46,7 @@ class Rooms extends Component {
         this.state.rooms.map(room => {
           return (
             <Link
-              to={`/rooms/${room.id}`}
+              to={`/rooms/${room.session_id}`}
               key={`${room.id}`}
               className="link">
               <div
