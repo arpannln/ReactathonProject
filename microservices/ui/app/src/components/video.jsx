@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { OTSession, OTPublisher, OTStreams, OTSubscriber } from 'opentok-react';
 import axios from 'axios';
+import '../styles/video.css';
 const url = "https://data.acridly34.hasura-app.io/v1/query";
 
 var OpenTok = require('opentok');
@@ -156,35 +157,39 @@ export default class Video extends React.Component {
       const apiKey = API_KEY;
       const { error, connection, publishVideo } = this.state;
       return (
-        <div>
+        <div className="outer-div">
           <div id="sessionStatus">Session Status: {connection}</div>
           {error ? (
             <div className="error">
               <strong>Error:</strong> {error}
             </div>
           ) : null}
+
           <OTSession
             apiKey={apiKey}
             sessionId={sessionId}
             token={token}
             onError={this.onSessionError}
             eventHandlers={this.sessionEventHandlers}
+            className="session-div main"
           >
             <button id="videoButton" onClick={this.toggleVideo}>
               {publishVideo ? 'Disable' : 'Enable'} Video
             </button>
             <OTPublisher
-              properties={{ publishVideo, width: 800, height: 640, }}
+              properties={{ publishVideo, width: 300, height: 300, }}
               onPublish={this.onPublish}
               onError={this.onPublishError}
               eventHandlers={this.publisherEventHandlers}
+              className="pub-div main"
             />
-            <OTStreams>
+          <OTStreams className="sub-div-outer main">
               <OTSubscriber
-                properties={{ width: 800, height: 640 }}
+                properties={{ width: 200, height: 200 }}
                 onSubscribe={this.onSubscribe}
                 onError={this.onSubscribeError}
                 eventHandlers={this.subscriberEventHandlers}
+                className="sub-div main"
               />
             </OTStreams>
           </OTSession>
