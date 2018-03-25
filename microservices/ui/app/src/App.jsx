@@ -16,11 +16,11 @@ import Video from './components/video';
 const App = () => (
     <HashRouter>
       <div>
-        <header>
-          <Nav/>
-        </header>
         <Switch>
-        <Route path="/topics/:id" component={Rooms}/>
+          <Route path="/" component={Nav} />
+        </Switch>
+        <Switch>
+          <Route path="/topics/:id" component={Rooms}/>
           <Route path="/topics" component={TopicsList} />
           <Route path="/rooms/:id" component={Video} />
           <Route path="/"  />
