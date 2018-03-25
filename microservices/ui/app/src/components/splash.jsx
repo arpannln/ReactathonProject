@@ -34,10 +34,12 @@ render () {
 
     <div className="panel panel_3">
       <h1 className="panel_header">Why Group Therapy?</h1>
-      <ul> There are two types of group therapy, psychoeducational and process oriented.
-        <li>With psychoeducational therapy a group provides its members with the information they need to address or cope with their problems.</li>
-        <li>With process oriented therapy, groups are focused on sharing their experiences with each other. These groups discussion driven, seldom having a set agenda.</li>
-      </ul>
+      <div>
+        <ul> There are two types of group therapy, psychoeducational and process oriented.
+          <li>With psychoeducational therapy a group provides its members with the information they need to address or cope with their problems.</li>
+          <li>With process oriented therapy, groups are focused on sharing their experiences with each other. These groups discussion driven, seldom having a set agenda.</li>
+        </ul>
+      </div>
     </div>
 
     <div className="panel panel_4">
@@ -47,11 +49,13 @@ render () {
 
     <div className="panel panel_5">
       <h1 className="panel_header">Problems we solve:</h1>
-      <ol> Three of the guiding principles of group therapy are Confidentiality, Universality, and Participation. By putting our services on the web NotAlone is uniquely able to address these concerns.
-        <li>Member confidentiality is conserved by pairing users with each other potentially hundreds of miles away from everyone they know.</li>
-        <li>Universality has to deal with members realizing that they are not alone, and that their suffering is universal. By connecting with users from all over the planet, users can see that their problems are universal and that they are truly not alone.</li>
-        <li>Finally participation is one of the most important aspects of group therapy. Even the best treatment doesn't work if you don't use it. Sometimes the hardest part of getting help can be getting out the door. When you use NotAlone you can get help on your own time wherever you happen to be.</li>
-      </ol>
+      <div>
+        <ol> Three of the guiding principles of group therapy are Confidentiality, Universality, and Participation. By putting our services on the web NotAlone is uniquely able to address these concerns.
+          <li>Member confidentiality is conserved by pairing users with each other potentially hundreds of miles away from everyone they know.</li>
+          <li>Universality has to deal with members realizing that they are not alone, and that their suffering is universal. By connecting with users from all over the planet, users can see that their problems are universal and that they are truly not alone.</li>
+          <li>Finally participation is one of the most important aspects of group therapy. Even the best treatment doesn't work if you don't use it. Sometimes the hardest part of getting help can be getting out the door. When you use NotAlone you can get help on your own time wherever you happen to be.</li>
+        </ol>
+      </div>
     </div>
   </div>
   );
