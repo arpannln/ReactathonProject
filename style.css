@@ -1,16 +1,19 @@
+.panel {
+  height: 80vh;
+  width: 100%;
+}
+
 .panel_1 {
   background-image: url("./sadman.jpg");
-  height: 500px;
-  width: 100%;
   background-size: cover;
   background-position-y: -100px;
   background-repeat: no-repeat;
   display: flex;
 }
 
-.panel_1_header {
+.panel_header {
   font-size: 40px;
-  color: white;
+  color: #D3D3D3;
   justify-content: center;
   align-items: center;
 }
