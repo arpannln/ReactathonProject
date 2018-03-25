@@ -35,6 +35,7 @@ class TopicsList extends Component {
   }
 
   render() {
+    console.log(this.state.topics);
     return(
       <ul className = "topics-list">
       {
@@ -45,7 +46,7 @@ class TopicsList extends Component {
                 to={`/topics/${topic.id}`}
                 key={`${topic.id}`}
                 className="link" >
-                <img className="topic-image" src="https://www.epainassist.com/images/Article-Images/agoraphobia.jpg"></img>
+                <img className="topic-image" src={topic.image_url}></img>
                 <h3 id="topic-name" className="topic-name">{topic.name}</h3>
               </Link>
             </span>

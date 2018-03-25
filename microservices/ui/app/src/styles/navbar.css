@@ -1,7 +1,8 @@
 .outer-div-nav-bar {
   width: 100%;
   height: 80px;
-  background: cornflowerblue;
+  background-color: #F7A072;
+  border-bottom: 1px solid white;
 }
 
 .outer-div-nav-bar button {
@@ -15,13 +16,13 @@
   top: 20px;
   border-radius: 10px;
   background: lightblue;
-  border: 1px solid black;
+  border: 1px solid #B5E2FA;
 
 }
 
 .home-button:hover {
   cursor: pointer;
-  background:lightgray;
+  background: cornflowerblue;
 }
 
 .explore-button {
@@ -31,10 +32,10 @@
   top: 20px;
   border-radius: 10px;
   background: lightblue;
-  border: 1px solid black;
+  border: 1px solid #B5E2FA;
 }
 
 .explore-button:hover {
   cursor: pointer;
-  background:lightgray;
+  background:cornflowerblue;
 }

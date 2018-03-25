@@ -25,13 +25,10 @@
   display:flex;
   flex-wrap: wrap;
   margin-left: 125px;
-  background-color: lightgray;
-  /* width: 100vh; */
-  /* height: 100vh; */
 }
 
 body {
-  background-color: lightgray;
+  background-color: cornflowerblue;
 }
 
 .topic-name {
