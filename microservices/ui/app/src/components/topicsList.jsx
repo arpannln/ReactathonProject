@@ -26,8 +26,8 @@ class TopicsList extends Component {
       .then(res => {
         this.setState({
           topics: res.data
-        })
-      })
+        });
+      });
   }
 
   componentDidMount() {
@@ -38,7 +38,10 @@ class TopicsList extends Component {
     console.log(this.state.topics);
     return(
       <div>
-        <img className="topics-header" src="https://cdn.pixabay.com/photo/2018/03/15/10/40/panoramic-3227796_1280.jpg"/>
+        <div className="topics-header-div">
+          <img className="topics-header" src="https://res.cloudinary.com/slicecloud/image/upload/v1522004911/header_sun_bkp0bd.jpg"/>
+          <h1>Remember: You're Not Alone</h1>
+        </div>
         <ul className = "topics-list">
         {
           this.state.topics.map(topic => {

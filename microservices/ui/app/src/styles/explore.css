@@ -3,6 +3,19 @@
   height: 100%;
 }
 
+.topics-header-div {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.topics-header-div h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .topics-header {
   width: 100%;
   object-fit: cover;
@@ -48,7 +61,11 @@ body {
   justify-content: center;
   align-items: center;
   text-shadow: 3px 3px 3px black;
+  /* opacity: 0; */
+  /* top: 150px;
+  left: 125px; */
   color: white;
+  /* padding: none; */
   margin-top: -0.1px;
 
 }
