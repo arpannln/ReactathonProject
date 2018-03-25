@@ -160,7 +160,9 @@ export default class Video extends React.Component {
         <div className="outer-div">
           <h1 className="room-name">{this.props.match.params.name}</h1>
           <div id="sessionStatus">Session Status: {connection}</div>
-          <button onClick={() => this.props.history.goBack()}>Go Back to Topic</button>
+          <button
+            className="go-back-button"
+            onClick={() => this.props.history.goBack()}>Go Back to Topic</button>
           {error ? (
             <div className="error">
               <strong>Error:</strong> {error}

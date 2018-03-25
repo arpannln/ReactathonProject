@@ -15,6 +15,8 @@
   margin-top: 10px;
   margin-left: 10px;
 }
+
+
 .outer-div > button , #videoButton{
   height: 35px;
   color: white;
@@ -24,7 +26,8 @@
   margin: 5px 0px;
   margin-left: 48%;
   text-align: center;
-
+  outline: none;
+  border: none;
 }
 
 .outer-div > button {
@@ -34,7 +37,11 @@
 .outer-div > button:hover , #videoButton:hover {
   background-color: #008080;
   cursor: pointer;
-
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transition: transform 0.2s ease;
 }
 
 .room-name {

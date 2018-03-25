@@ -22,6 +22,7 @@
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
   outline: none;
+  border: none;
 }
 
 .home-button:hover {
@@ -45,6 +46,7 @@
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
   outline: none;
+  border: none;
 }
 
 .explore-button:hover {
