@@ -12,35 +12,35 @@ render () {
   return (
   <div>
     <div className="panel panel_1">
-      <h1 className="panel_header">Welcome to A place to talk</h1>
+      <h1 className="panel_header">We're Not Alone</h1>
       <p className="panel_1_quote">“The best part about being with a group is that you don’t have to do everything alone.”</p>
       <a data-scroll href="#panel_2">Learn More</a>
     </div>
 
     <div className="panel panel_2" id="panel_2">
-      <h1 className="panel_header">Mission Statement</h1>
-      <p>The American Psychological Association notes another important benefit of group therapy: diversity. We all have different experiences, backgrounds, and personalities, which leads us to our own unique perspective on the world. Working with a group can help clients see things from a new perspective, which may illuminate new ways to take on old problems and new strategies to overcome obstacles that seem insurmountable (APA, 2017).</p>
+      <h1 className="panel_header">Our Mission</h1>
+      <p>The mission of NotAlone is to foster communication and to benefit society and improve the lives and mental wellness of people all over the globe. Group therapy is a proven method to manage mental health conditions and NotAlone aims to make this tool available to people anytime, anywhere..</p>
     </div>
 
     <div className="panel panel_3">
-      <h1 className="panel_header">Psychoeducational</h1>
-      <ul>
-        <li>A group that provides its members with the information they need to address or cope with their problems</li>
-        <li>Usually structured with specific topics to cover</li>
+      <h1 className="panel_header">Why Group Therapy?</h1>
+      <ul> There are two types of group therapy, psychoeducational and process oriented.
+        <li>With psychoeducational therapy a group provides its members with the information they need to address or cope with their problems.</li>
+        <li>With process oriented therapy, groups are focused on sharing their experiences with each other. These groups discussion driven, seldom having a set agenda.</li>
       </ul>
     </div>
 
     <div className="panel panel_4">
-      <h1 className="panel_header">Process Oriented</h1>
-      <p>Groups that are focused on the experience of users sharing with each other. These groups discussion driven, seldom having a set agenda.</p>
+      <h1 className="panel_header">What We do</h1>
+      <p>Group therapy available anytime, anywhere available at the click of a button. Group therapy is an incredibly powerful tool, and at NotAlone we believe it could be made more accessible by connecting people over the web.</p>
     </div>
 
     <div className="panel panel_5">
       <h1 className="panel_header">Problems we solve:</h1>
-      <ol>
-        <li>Anonymity / Confidentiality</li>
-        <li>Ease of Attendance</li>
-        <li>Separation of concerns</li>
+      <ol> Three of the guiding principles of group therapy are Confidentiality, Universality, and Participation. By putting our services on the web NotAlone is uniquely able to address these concerns.
+        <li>Member confidentiality is conserved by pairing users with each other potentially hundreds of miles away from everyone they know.</li>
+        <li>Universality has to deal with members realizing that they are not alone, and that their suffering is universal. By connecting with users from all over the planet, users can see that their problems are universal and that they are truly not alone.</li>
+        <li>Finally participation is one of the most important aspects of group therapy. Even the best treatment doesn't work if you don't use it. Sometimes the hardest part of getting help can be getting out the door. When you use NotAlone you can get help on your own time wherever you happen to be.</li>
       </ol>
     </div>
   </div>
