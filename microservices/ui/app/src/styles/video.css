@@ -36,3 +36,12 @@
   cursor: pointer;
 
 }
+
+.room-name {
+  position: absolute;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 2px gray;
+  color: white;
+  margin-left: 42%;
+  margin-top: -60px;
+}
