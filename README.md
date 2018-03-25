@@ -29,5 +29,6 @@ NotAlone's video conferencing is provided by OpenTok. The OpenTok platform was s
 + Allowing users create special interest rooms.
 + Resources and Provisions for users who need professional help beyond what NotAlone can offer.
 + Calendars and reminders to remind users when to make their appointments.
-+ In app messaging. 
++ In app messaging.
 + Opt in user face/voice obscurement. Asking for help can be scary. Allowing users the option for full anonymity can bring group therapy even to people who don't want to show their face.
++ Filtering groups by language.
