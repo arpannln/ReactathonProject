@@ -159,6 +159,7 @@ export default class Video extends React.Component {
       return (
         <div className="outer-div">
           <div id="sessionStatus">Session Status: {connection}</div>
+          <button onClick={() => this.props.history.goBack()}>Go Back to Home</button>
           {error ? (
             <div className="error">
               <strong>Error:</strong> {error}
@@ -193,7 +194,7 @@ export default class Video extends React.Component {
               />
             </OTStreams>
           </OTSession>
-          <button onClick={() => this.props.history.goBack()}>Go Back to Home</button>
+
 
         </div>
       );
