@@ -9,9 +9,10 @@ NotAlone is a novel approach in improving mental health through the use of web-b
 
 ![Splash](microservices/ui/app/src/images/splash.png)
 
-
 ## Group Therapy Rooms  
 Users can browse therapy groups by topic and join rooms for live human interaction. Rooms persist on the app and have regular meet times for members. Membership is determined room moderators and groups are free to form and disband as desired.
+
+![Room](microservices/ui/app/src/images/giphy.gif)
 
 ## Technologies
 NotAlone is built with Node.js, Express, Postgres through Hasura, and React.
