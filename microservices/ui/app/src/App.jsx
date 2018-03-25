@@ -9,8 +9,8 @@ import {
 import './App.css';
 import Nav from './nav/nav';
 import TopicsList from './components/topicsList';
-import Rooms from './components/rooms'
-import Video from './components/video'
+import Rooms from './components/rooms';
+import Video from './components/video';
 
 
 const App = () => (
