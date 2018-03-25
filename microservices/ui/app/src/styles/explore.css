@@ -47,6 +47,10 @@
   border: none;
 }
 
+.span-topic img {
+  border-radius: 10px;
+}
+
 .link {
   width: 100%;
   height: 100%;
@@ -83,7 +87,6 @@ body {
   color: white;
   /* padding: none; */
   margin-top: -0.1px;
-
 }
 
 #topic-name {
@@ -99,5 +102,5 @@ body {
   -o-transform: scale(1.21);
   -ms-transform: scale(1.21); */
   transition: all 0.2s ease;
-
+  border-radius: 10px;
 }
