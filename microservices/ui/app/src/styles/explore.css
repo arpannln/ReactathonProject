@@ -27,14 +27,15 @@
   margin-right: 40%;
   margin-top: -70px;
 
-
 }
 
 .search > input {
   height: 35px;
   width: 300px;
   outline: none;
-  border-radius: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
 }
 
 
