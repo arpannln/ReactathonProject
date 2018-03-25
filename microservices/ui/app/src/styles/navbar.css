@@ -7,7 +7,9 @@
 }
 
 .outer-div-nav-bar button {
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  background-color: darkcyan;
+  color: white;
 }
 
 .home-button {
@@ -42,7 +44,19 @@
   transition: transform 0.2s ease;
   outline: none;
 }
+.search {
+  position: absolute;
+  margin-left: 40%;
+  margin-right: 50%;
+  margin-top: -70px;
 
+
+}
+
+.search > input {
+  height: 25px;
+  width: 200px;
+}
 .explore-button:hover {
   cursor: pointer;
   background:cornflowerblue;

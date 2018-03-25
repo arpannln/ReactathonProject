@@ -31,8 +31,12 @@
   height: 50px;
   margin: 10px;
   border-radius: 15px;
-  background: #B5E2FA;
+  background: #0FA3B1;
   color: #F7A072;
+}
+
+.topic-list-item h3 {
+  font-weight: 900;
 }
 
 .link {
