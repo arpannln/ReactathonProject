@@ -44,16 +44,19 @@ class Rooms extends Component {
       <ul className = "topics-list">
       {
         this.state.rooms.map(room => {
+          console.log(room.sessionId);
           return (
-            <Link
-              to={`/rooms/${room.session_id}`}
-              key={`${room.id}`}
-              className="link">
-              <div
-              className="topic-list-item">
-                <h3>{room.name}</h3>
-              </div>
-            </Link>
+            <span className="span-button">
+              <Link
+                to={`/rooms/${room.session_id}`}
+                key={`${room.id}`}
+                className="link">
+                <div
+                className="topic-list-item">
+                  <h3>{room.name}</h3>
+                </div>
+              </Link>
+            </span>
           )
         })
       }

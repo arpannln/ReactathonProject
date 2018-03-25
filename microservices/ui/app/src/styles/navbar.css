@@ -4,6 +4,10 @@
   background: cornflowerblue;
 }
 
+.outer-div-nav-bar button {
+  font-family: 'Montserrat'
+}
+
 .home-button {
   padding: 10px 30px;
   position: absolute;
@@ -12,6 +16,7 @@
   border-radius: 10px;
   background: lightblue;
   border: 1px solid black;
+
 }
 
 .home-button:hover {
