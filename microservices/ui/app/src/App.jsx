@@ -12,6 +12,7 @@ import TopicsList from './components/topicsList';
 import Rooms from './components/rooms';
 import Video from './components/video';
 import Splash from './components/splash';
+import Footer from './components/footer';
 
 
 const App = () => (
@@ -26,6 +27,9 @@ const App = () => (
           <Route path="/rooms/:id/:name" component={Video} />
           <Route path="/" component={Splash} />
           <Redirect to="/" />
+        </Switch>
+        <Switch>
+          <Route path="/" component={Footer} />
         </Switch>
       </div>
     </HashRouter>
