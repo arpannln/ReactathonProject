@@ -1,10 +1,12 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Rooms from './Rooms.jsx';
 import { OTSession, OTPublisher, OTStreams, OTSubscriber } from 'opentok-react';
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-
+    this.handleSubmit = this.handleSubmit.bind(this);
     this.state = {
       error: null,
       connection: 'Connecting',
@@ -71,6 +73,13 @@ export default class App extends React.Component {
   toggleVideo = () => {
     this.setState({ publishVideo: !this.state.publishVideo });
   };
+  
+  handleSubmit () {
+    ReactDOM.render(
+      <Rooms/>,
+      document.getElementById('root')
+    );
+  }
 
   render() {
     const { apiKey, sessionId, token } = this.props.credentials;
@@ -108,6 +117,7 @@ export default class App extends React.Component {
             />
           </OTStreams>
         </OTSession>
+        <button onClick={this.handleSubmit}> Go Back to Home  </button>
       </div>
     );
   }
