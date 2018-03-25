@@ -32,7 +32,7 @@
   margin: 10px;
   border-radius: 15px;
   background: #0FA3B1;
-  color: #F7A072;
+  color: white;
 }
 
 .link {
@@ -47,6 +47,7 @@
   -o-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transition: all 0.3s ease;
+  color: #F7A072;
 }
 
 @keyframes App-logo-spin {
