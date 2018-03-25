@@ -11,7 +11,6 @@ const API_SECRET = '89fa71cc2dde599c421545a6d8890e1a340e8a02';
 export default class Video extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       error: null,
       connection: 'Connecting',
