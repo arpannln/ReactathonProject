@@ -7,6 +7,9 @@ NotAlone is a novel approach in improving mental health through the use of web-b
 + User Auth powered by Hasura
 + Live video conferencing powered by TokBox
 
+![Splash](microservices/ui/app/src/images/splash.png)
+
+
 ## Group Therapy Rooms  
 Users can browse therapy groups by topic and join rooms for live human interaction. Rooms persist on the app and have regular meet times for members. Membership is determined room moderators and groups are free to form and disband as desired.
 
@@ -29,5 +32,5 @@ NotAlone's video conferencing is provided by OpenTok. The OpenTok platform was s
 + Allowing users create special interest rooms.
 + Resources and Provisions for users who need professional help beyond what NotAlone can offer.
 + Calendars and reminders to remind users when to make their appointments.
-+ In app messaging. 
++ In app messaging.
 + Opt in user face/voice obscurement. Asking for help can be scary. Allowing users the option for full anonymity can bring group therapy even to people who don't want to show their face.
