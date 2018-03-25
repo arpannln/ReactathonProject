@@ -32,7 +32,7 @@
 }
 
 .outer-div > button:hover , #videoButton:hover {
-  background-color: cornflowerblue;
+  background-color: #008080;
   cursor: pointer;
 
 }

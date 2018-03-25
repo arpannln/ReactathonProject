@@ -23,7 +23,7 @@ const App = () => (
         <Switch>
           <Route path="/topics/:id" component={Rooms}/>
           <Route path="/topics" component={TopicsList} />
-          <Route path="/rooms/:id" component={Video} />
+          <Route path="/rooms/:id/:name" component={Video} />
           <Route path="/" component={Splash} />
           <Redirect to="/" />
         </Switch>

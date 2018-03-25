@@ -17,6 +17,8 @@
   top: 14px;
   border-radius: 10px;
   background: darkcyan;
+  color: white;
+  text-shadow: 2px 2px 2px black;
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
   outline: none;
@@ -24,7 +26,7 @@
 
 .home-button:hover {
   cursor: pointer;
-  background: cornflowerblue;
+  background: #008080;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
@@ -36,8 +38,10 @@
   position: absolute;
   left: 180px;
   top: 14px;
+  color: white;
   border-radius: 10px;
   background: darkcyan;
+  text-shadow: 2px 2px 2px black;
   border: 1px solid #B5E2FA;
   transition: transform 0.2s ease;
   outline: none;
@@ -45,7 +49,7 @@
 
 .explore-button:hover {
   cursor: pointer;
-  background:cornflowerblue;
+  background:#008080;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
