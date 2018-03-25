@@ -1,0 +1,35 @@
+.outer-div-nav-bar {
+  width: 100%;
+  height: 80px;
+  background: cornflowerblue;
+}
+
+.home-button {
+  padding: 10px 30px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  border-radius: 10px;
+  background: lightblue;
+  border: 1px solid black;
+}
+
+.home-button:hover {
+  cursor: pointer;
+  background:lightgray;
+}
+
+.explore-button {
+  padding: 10px 30px;
+  position: absolute;
+  left: 180px;
+  top: 20px;
+  border-radius: 10px;
+  background: lightblue;
+  border: 1px solid black;
+}
+
+.explore-button:hover {
+  cursor: pointer;
+  background:lightgray;
+}
