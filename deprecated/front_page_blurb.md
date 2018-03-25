@@ -1,6 +1,11 @@
 # Our Mission
 The mission of NotAlone is to foster communication and to benefit society and improve the lives and mental wellness of people all over the globe. Group therapy is a proven method to manage mental health conditions and NotAlone aims to make this tool available to people anytime, anywhere.
 
+It can be easy to slide into isolation when we’re feeling down, especially for those suffering from an invisible illness or problem, but this is the exact opposite of the action that is most likely to help us climb out of that pit. Loneliness and isolation tend to breed more loneliness and isolation, but making the (often difficult or exhausting) effort to connect with others is just the thing we may need to start feeling better.
+
+“Some of the most comforting words in the universe are ‘me too.’ That moment when you find out that your struggle is also someone else’s struggle, that you’re not alone, and that others have been down the same road.”
+
+
 # Why Group Therapy?
 There are two types of group therapy, psychoeducational and process oriented.
 
