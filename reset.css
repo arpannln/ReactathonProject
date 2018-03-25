@@ -1,0 +1,9 @@
+html, body, div, span, h1, h2, h3, p, img, strong, center, ol, ul, li, nav, button {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+ box-sizing: border-box;
+}
