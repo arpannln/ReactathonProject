@@ -20,6 +20,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.polyfills.min.js"></script>
+    <script type=“text/javascript” src=“https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js“>
+   </script>
     <title>I'm Not The Only One</title>
   </head>
   <body>
@@ -37,5 +40,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
