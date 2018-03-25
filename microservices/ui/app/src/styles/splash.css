@@ -27,16 +27,16 @@
  text-shadow: black 3px 3px 3px;
 }
 .panel_1 a:hover {
- background-color: #f2f2f2;
- color: #f7a072;
- text-shadow: none;
- -webkit-transform: scale(1.05);
- -moz-transform: scale(1.05);
- -o-transform: scale(1.05);
- -ms-transform: scale(1.05);
- transition: transform 0.2s ease;
- text-shadow: lightgrey 3px 3px 3px;
- border: 2px solid #f2f2f2;
+  background-color: #f2f2f2;
+  color: #f7a072;
+  text-shadow: none;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transition: all 0.2s ease;
+  text-shadow: lightgrey 3px 3px 3px;
+  border: 2px solid #f2f2f2;
 }
 
 .panel_2 {
