@@ -1,0 +1,14 @@
+- args:
+    role: anonymous
+    table: room_user
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - created
+      - room_id
+      - user_id
+      filter: {}
+    role: anonymous
+    table: room_user
+  type: create_select_permission

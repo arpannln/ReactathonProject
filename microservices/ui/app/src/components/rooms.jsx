@@ -46,7 +46,8 @@ class Rooms extends Component {
           return (
             <Link
               to={`/rooms/${room.id}`}
-              key={`${room.id}`}>
+              key={`${room.id}`}
+              className="link">
               <div
               className="topic-list-item">
                 <h3>{room.name}</h3>

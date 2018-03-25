@@ -35,6 +35,10 @@
   color: #F7A072;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .topic-list-item:hover {
   opacity: 1.0;
   cursor: pointer;

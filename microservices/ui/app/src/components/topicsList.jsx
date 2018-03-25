@@ -41,7 +41,8 @@ class TopicsList extends Component {
           return (
             <Link
               to={`/topics/${topic.id}`}
-              key={`${topic.id}`}>
+              key={`${topic.id}`}
+              className="link">
               <div
               className="topic-list-item">
                 <h3>{topic.name}</h3>
