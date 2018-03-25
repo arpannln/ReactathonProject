@@ -44,7 +44,8 @@ render () {
 
     <div className="panel panel_4">
       <h1 className="panel_header">What We do</h1>
-      <p>Group therapy available anytime, anywhere available at the click of a button. Group therapy is an incredibly powerful tool, and at NotAlone we believe it could be made more accessible by connecting people over the web.</p>
+      <p>Group therapy available anytime, anywhere available at the click of a button. Group therapy is an incredibly powerful tool, and at NotAlone we believe it could be made more accessible by connecting people over the web.
+      <br></br><br></br> Regularly talking and listening to others also helps you put your own problems in perspective. Many people experience mental health difficulties, but few people speak openly about them... Oftentimes, you may feel like you are the only one struggling — but you're not. It can be a relief to hear others discuss what they're going through, and realize you're not the only one. - The American Psychology Asociation</p>
     </div>
 
     <div className="panel panel_5">
