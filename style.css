@@ -4,6 +4,44 @@
 }
 
 .panel_1 {
+  background-image: url(./happygroup.jpg);
+  background-size: cover;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 125px;
+}
+
+.panel_1 a {
+  background-color: rgba(0,0,0,0);
+  color: #f2f2f2;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid white;
+
+}
+.panel_1 a:hover {
+  background-color: #f2f2f2;
+  color: #f7a072;
+}
+
+.panel_2 {
+  background-color: ##f5f5f5;
+}
+
+.panel_3 {
+  background-image: url("./treatment.jpg");
+  background-size: cover;
+  /* background-position-y: 100px; */
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.panel_5 {
   background-image: url("./sadman.jpg");
   background-size: cover;
   background-position-y: -100px;
@@ -12,16 +50,19 @@
 }
 
 .panel_header {
-  font-size: 40px;
-  color: #D3D3D3;
+  font-size: 50px;
+  padding-bottom: 40px;
+  color: #f3f3f3;
   justify-content: center;
   align-items: center;
+  text-shadow: black 1px 0 1px;
 }
 
 .panel_1_quote {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   font-style: italic;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
