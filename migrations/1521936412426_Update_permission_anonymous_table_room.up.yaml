@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - description
+      - id
+      - moderator_id
+      - name
+      - topic_id
+      filter: {}
+    role: anonymous
+    table: room
+  type: create_update_permission
