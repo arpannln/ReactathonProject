@@ -1,4 +1,10 @@
 HearToHelp
+NotAlone
+TokTogether
+LetsTalkTogether
+TalkTogether
+Together
+
 https://positivepsychologyprogram.com/group-therapy/
 
 “The best part about being with a group is that you don’t have to do everything alone.” – Anonymous
@@ -18,7 +24,7 @@ With process oriented therapy, groups are focused on sharing their experiences w
 
 
 
-
+## Blurb
 It can be easy to slide into isolation when we’re feeling down, especially for those suffering from an invisible illness or problem, but this is the exact opposite of the action that is most likely to help us climb out of that pit. Loneliness and isolation tend to breed more loneliness and isolation, but making the (often difficult or exhausting) effort to connect with others is just the thing we may need to start feeling better.
 
 “Some of the most comforting words in the universe are ‘me too.’ That moment when you find out that your struggle is also someone else’s struggle, that you’re not alone, and that others have been down the same road.”
@@ -40,6 +46,7 @@ Confidentiality is crucial to successful group therapy. If group members don't f
 3. Separation of concerns
 Group therapy is a social activity, but forming close friendships with group members can
 
-+ No Socializing with Group Members. Group therapy is not a social activity, it is (hopefully!) a therapeutic one. Forming close friendships or other bonds with group members can interfere with group success, especially if members become hesitant to share personal information because of another group member. Friendships should be saved for after the group has disbanded.
+
 
 # AGORAPHOBIA!
+may come across as insensitive if we're building an app that's meant for mental wellness.
