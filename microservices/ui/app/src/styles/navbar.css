@@ -1,20 +1,22 @@
 .outer-div-nav-bar {
   width: 100%;
-  height: 80px;
+  height: 65px;
   background-color: #F7A072;
   border-bottom: 1px solid white;
   transition: all 2.0s ease;
 }
 
 .outer-div-nav-bar button {
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  background-color: darkcyan;
+  color: white;
 }
 
 .home-button {
   padding: 10px 30px;
   position: absolute;
   left: 50px;
-  top: 20px;
+  top: 14px;
   border-radius: 10px;
   background: lightblue;
   border: 1px solid #B5E2FA;
@@ -35,7 +37,7 @@
   padding: 10px 30px;
   position: absolute;
   left: 180px;
-  top: 20px;
+  top: 14px;
   border-radius: 10px;
   background: lightblue;
   border: 1px solid #B5E2FA;

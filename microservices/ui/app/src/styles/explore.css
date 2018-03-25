@@ -3,6 +3,26 @@
   height: 100%;
 }
 
+.topics-header-div {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.topics-header-div h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topics-header {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
 .span-topic {
   position: relative;
   width: 300px;
