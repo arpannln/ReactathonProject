@@ -3,6 +3,7 @@
   height: 80px;
   background-color: #F7A072;
   border-bottom: 1px solid white;
+  transition: all 2.0s ease;
 }
 
 .outer-div-nav-bar button {
@@ -17,12 +18,17 @@
   border-radius: 10px;
   background: lightblue;
   border: 1px solid #B5E2FA;
+  transition: transform 0.2s ease;
 
 }
 
 .home-button:hover {
   cursor: pointer;
   background: cornflowerblue;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
 }
 
 .explore-button {
@@ -33,9 +39,14 @@
   border-radius: 10px;
   background: lightblue;
   border: 1px solid #B5E2FA;
+  transition: transform 0.2s ease;
 }
 
 .explore-button:hover {
   cursor: pointer;
   background:cornflowerblue;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
 }

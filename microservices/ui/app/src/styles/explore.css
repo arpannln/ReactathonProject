@@ -46,7 +46,7 @@ body {
   left: 125px; */
   color: white;
   /* padding: none; */
-margin-top: -0.1px;
+  margin-top: -0.1px;
 
 }
 
@@ -56,6 +56,11 @@ margin-top: -0.1px;
 
 .topic-name:hover {
   opacity: 1;
-  box-shadow: 0 0 6px 8px black;
+  box-shadow: 0 0 6px 8px white;
+  /* -webkit-transform: scale(1.21);
+  -moz-transform: scale(1.21);
+  -o-transform: scale(1.21);
+  -ms-transform: scale(1.21); */
+  transition: all 0.2s ease;
 
 }
