@@ -40,7 +40,7 @@ class TopicsList extends Component {
         this.state.topics.map(topic => {
           return (
             <Link
-              to={`/topic/${topic.id}`}
+              to={`/topics/${topic.id}`}
               key={`${topic.id}`}>
               <div
               className="topic-list-item">
