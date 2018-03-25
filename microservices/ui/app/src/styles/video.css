@@ -1,0 +1,47 @@
+.OTPublisherContainer {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  margin-left: 40%;
+}
+
+.OTSubscriberContainer{
+  padding: 20px;
+  float: left;
+}
+
+#sessionStatus {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.outer-div > button , #videoButton{
+  height: 35px;
+  color: white;
+  border-radius: 10px;
+  background-color: darkcyan;
+  padding: 0px 10px 0px 10px;
+  margin: 5px 0px;
+  margin-left: 48%;
+  text-align: center;
+
+}
+
+.outer-div > button {
+  margin: 5px 10px;
+}
+
+.outer-div > button:hover , #videoButton:hover {
+  background-color: #008080;
+  cursor: pointer;
+
+}
+
+.room-name {
+  position: absolute;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 2px gray;
+  color: white;
+  margin-left: 42%;
+  margin-top: -60px;
+}
