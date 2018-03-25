@@ -1,5 +1,5 @@
 # NotAlone
-[Live Demo!](www.demo.com)
+[Live Demo!](https://ui.acridly34.hasura-app.io/#/)
 
 NotAlone is a novel approach in improving mental health through the use of web-based group therapy. Therapy is an incredibly useful tool that helps with a range of issues, and NotAlone seeks to bring anonymous group therapy treatment to people wherever they are.
 
