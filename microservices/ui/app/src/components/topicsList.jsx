@@ -68,15 +68,17 @@ class TopicsList extends Component {
           topics.map(topic => {
 
             return (
-              <span className="span-topic">
-                <Link
-                  to={`/topics/${topic.id}`}
-                  key={`${topic.id}`}
-                  className="link" >
-                  <img className="topic-image" src={topic.image_url}></img>
-                  <h3 id="topic-name" className="topic-name">{topic.name}</h3>
-                </Link>
-              </span>
+              <div className="span-topic-container">
+                <span className="span-topic">
+                  <Link
+                    to={`/topics/${topic.id}`}
+                    key={`${topic.id}`}
+                    className="link" >
+                    <img className="topic-image" src={topic.image_url}></img>
+                    <h3 id="topic-name" className="topic-name">{topic.name}</h3>
+                  </Link>
+                </span>
+              </div>
 
             )
           })
