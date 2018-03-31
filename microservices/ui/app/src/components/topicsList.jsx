@@ -31,6 +31,7 @@ class TopicsList extends Component {
       }
     })
       .then(res => {
+        console.log(res.data);
         this.setState({
           topics: res.data
         });
@@ -44,7 +45,6 @@ class TopicsList extends Component {
   render() {
     var topics = this.state.topics;
     if (topics.length > 0) {
-      console.log(topics[0]);
       topics = topics.filter( topic => topic.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1);
     }
     return(
